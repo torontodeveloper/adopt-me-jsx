@@ -1,0 +1,12 @@
+.selection {
+    background: lightblue;
+    border: solid 5px purple;
+}
+
+.container {
+    border: solid black;
+    width: 350px;
+    height: 120px;
+    margin-left: 10rem;
+    margin-top: 1rem;
+}

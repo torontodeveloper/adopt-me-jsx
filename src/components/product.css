@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+}
+
+.cart {
+    background: lightslategrey;
+    color: aqua;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}

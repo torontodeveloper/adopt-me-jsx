@@ -1,0 +1,348 @@
+[
+    {
+        "network": {
+            "id": "18:b4:30:f8:0d:w2",
+            "name": "Home Hub 300",
+            "type": "modem",
+            "alarms": [],
+            "parentName": "",
+            "status": "online",
+            "connectionType": "ETH",
+            "channel": "",
+            "deviceInfo": {
+                "ssid": "Bellwifi",
+                "ipAddress": "199.153.0.7",
+                "macId": "18:b4:30:f8:0d:c3"
+            },
+            "signalInfo": {
+                "signalStrengthValue": "-55dBm",
+                "signalStrength": "weak",
+                "signalStrengthColor": "red",
+                "interference": "22%",
+                "interferenceColor": "yellow",
+                "channelCongestion": "32%",
+                "channelCongestionColor": "green"
+            },
+            "downloadSpeed": {
+                "deviceCapability": "150 mb/s",
+                "actual": "147 mb/s"
+            },
+            "connectedDevices": [
+                {
+                    "id": "18:b4:30:f8:0d:c3",
+                    "name": "Living room pod",
+                    "type": "pod",
+                    "alarms": [
+                        {
+                            "id": "3112",
+                            "name": {
+                                "en": "Pod Interference",
+                                "fr": "Pod Interference=fr"
+                            },
+                            "recommendation": [
+                                {
+                                    "action": "1|Interference moved from Device",
+                                    "name": {
+                                        "en": "Move Interference",
+                                        "fr": "Move Interference Pod-fr"
+                                    }
+                                },
+                                {
+                                    "action": "0|Pod relocated",
+                                    "name": {
+                                        "en": "Move Pod",
+                                        "fr": "Move Pod-fr"
+                                    }
+                                }
+                            ],
+                            "history": [
+                                {
+                                    "action": {
+                                        "en": "Interference moved from Device",
+                                        "fr": "Interference moved from Device-fr"
+                                    },
+                                    "result": {
+                                        "en": "No continue",
+                                        "fr": "No continue-fr"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3110",
+                            "name": {
+                                "en": "Poor Signal",
+                                "fr": "Poor Signal-fr"
+                            },
+                            "recommendation": {
+                                "action": "0|Pod relocated",
+                                "name": {
+                                    "en": "Move Pod",
+                                    "fr": "Move Pod-fr"
+                                }
+                            },
+                            "history": [
+                                {
+                                    "action": {
+                                        "en": "Pod relocated",
+                                        "fr": "Pod relocated-fr"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "parentName": "Home Hub 300",
+                    "status": "online",
+                    "connectionType": "ETH",
+                    "channel": "44",
+                    "deviceInfo": {
+                        "ssid": "Bellwifi",
+                        "ipAddress": "199.153.0.7",
+                        "macId": "18:b4:30:f8:0d:c3"
+                    },
+                    "signalInfo": {
+                        "signalStrengthValue": "-55dBm",
+                        "signalStrength": "weak",
+                        "signalStrengthColor": "red",
+                        "interference": "80%",
+                        "interferenceColor": "red",
+                        "channelCongestion": "32%",
+                        "channelCongestionColor": "green"
+                    },
+                    "downloadSpeed": {
+                        "deviceCapability": "150 mb/s",
+                        "actual": "147 mb/s"
+                    },
+                    "connectedDevices": [
+                        {
+                            "id": "18:b4:60:f8:0d:c3",
+                            "name": "Living room TV",
+                            "type": "tv",
+                            "alarms": [],
+                            "parentName": "Living room pod",
+                            "status": "offline",
+                            "connectionType": "5G",
+                            "channel": "44",
+                            "deviceInfo": {
+                                "ssid": "Bellwifi",
+                                "ipAddress": "199.152.0.7",
+                                "macId": "18:b4:60:f8:0d:c3"
+                            },
+                            "signalInfo": {
+                                "signalStrengthValue": "-95dBm",
+                                "signalStrength": "strong",
+                                "signalStrengthColor": "green",
+                                "interference": "80%",
+                                "interferenceColor": "red",
+                                "channelCongestion": "32%",
+                                "channelCongestionColor": "green"
+                            },
+                            "downloadSpeed": {
+                                "deviceCapability": "150 mb/s",
+                                "actual": "147 mb/s"
+                            },
+                            "connectedDevices": []
+                        },
+                        {
+                            "id": "20:b4:30:f8:0d:s9",
+                            "name": "My laptop",
+                            "type": "computer",
+                            "alarms": [],
+                            "parentName": "Living room pod",
+                            "status": "active",
+                            "connectionType": "ETH",
+                            "channel": "44",
+                            "deviceInfo": {
+                                "ssid": "Bellwifi",
+                                "ipAddress": "199.153.0.8",
+                                "macId": "20:b4:30:f8:0d:s9"
+                            },
+                            "signalInfo": {
+                                "signalStrengthValue": "-55dBm",
+                                "signalStrength": "moderate",
+                                "signalStrengthColor": "yellow",
+                                "interference": "22%",
+                                "interferenceColor": "yellow",
+                                "channelCongestion": "32%",
+                                "channelCongestionColor": "green"
+                            },
+                            "downloadSpeed": {
+                                "deviceCapability": "156 mb/s",
+                                "actual": "199 mb/s"
+                            },
+                            "connectedDevices": []
+                        }
+                    ]
+                },
+                {
+                    "id": "18:b4:30:f8:0d:s9",
+                    "name": "Basement pod",
+                    "type": "pod",
+                    "alarms": [
+                        {
+                            "id": "3162",
+                            "name": {
+                                "en": "Low signal strength impacting multiple devices",
+                                "fr": "Low signal strength impacting multiple devices-fr"
+                            },
+                            "recommendation": {
+                                "action": "0|Pod relocated",
+                                "name": {
+                                    "en": "Move Pod",
+                                    "fr": "Move Pod-fr"
+                                }
+                            },
+                            "history": []
+                        }
+                    ],
+                    "parentName": "Home Hub 300",
+                    "status": "active",
+                    "connectionType": "5G",
+                    "channel": "46",
+                    "deviceInfo": {
+                        "ssid": "Bellwifi",
+                        "ipAddress": "199.153.0.8",
+                        "macId": "18:b4:30:f8:0d:s9"
+                    },
+                    "signalInfo": {
+                        "signalStrengthValue": "-55dBm",
+                        "signalStrength": "moderate",
+                        "signalStrengthColor": "yellow",
+                        "interference": "10%",
+                        "interferenceColor": "green",
+                        "channelCongestion": "42%",
+                        "channelCongestionColor": "yellow"
+                    },
+                    "downloadSpeed": {
+                        "deviceCapability": "156 mb/s",
+                        "actual": "199 mb/s"
+                    },
+                    "connectedDevices": [
+                        {
+                            "id": "18:b4:10:f8:0d:c3",
+                            "name": "Basement TV",
+                            "type": "tv",
+                            "alarms": [],
+                            "parentName": "Basement pod",
+                            "status": "offline",
+                            "connectionType": "5G",
+                            "channel": "46",
+                            "deviceInfo": {
+                                "ssid": "Bellwifi",
+                                "ipAddress": "199.152.0.8",
+                                "macId": "18:b4:60:f8:0d:c3"
+                            },
+                            "signalInfo": {
+                                "signalStrengthValue": "-55dBm",
+                                "signalStrength": "moderate",
+                                "signalStrengthColor": "yellow",
+                                "interference": "10%",
+                                "interferenceColor": "green",
+                                "channelCongestion": "42%",
+                                "channelCongestionColor": "yellow"
+                            },
+                            "downloadSpeed": {
+                                "deviceCapability": "150 mb/s",
+                                "actual": "147 mb/s"
+                            },
+                            "connectedDevices": []
+                        },
+                        {
+                            "id": "20:b4:30:f8:0d:s9",
+                            "name": "My desktop",
+                            "type": "computer",
+                            "alarms": [],
+                            "parentName": "Basement pod",
+                            "status": "active",
+                            "connectionType": "2.5G",
+                            "deviceInfo": {
+                                "ssid": "Bellwifi",
+                                "ipAddress": "199.153.7.8",
+                                "macId": "20:b4:30:f8:0d:s9"
+                            },
+                            "signalInfo": {
+                                "signalStrengthValue": "-55dBm",
+                                "signalStrength": "moderate",
+                                "signalStrengthColor": "yellow",
+                                "interference": "10%",
+                                "interferenceColor": "green",
+                                "channelCongestion": "42%",
+                                "channelCongestionColor": "yellow"
+                            },
+                            "downloadSpeed": {
+                                "deviceCapability": "156 mb/s",
+                                "actual": "199 mb/s"
+                            },
+                            "connectedDevices": [
+                                {
+                                    "id": "20:b4:30:f8:0d:e9",
+                                    "name": "My Basement laptop",
+                                    "type": "computer",
+                                    "alarms": [],
+                                    "parentName": "My desktop",
+                                    "status": "active",
+                                    "connectionType": "5G",
+                                    "deviceInfo": {
+                                        "ssid": "Bellwifi",
+                                        "ipAddress": "199.153.7.8",
+                                        "macId": "20:b4:30:f8:0d:s9"
+                                    },
+                                    "signalInfo": {
+                                        "signalStrengthValue": "-55dBm",
+                                        "signalStrength": "moderate",
+                                        "signalStrengthColor": "yellow",
+                                        "interference": "10%",
+                                        "interferenceColor": "green",
+                                        "channelCongestion": "42%",
+                                        "channelCongestionColor": "yellow"
+                                    },
+                                    "downloadSpeed": {
+                                        "deviceCapability": "156 mb/s",
+                                        "actual": "199 mb/s"
+                                    },
+                                    "connectedDevices": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "18:b4:70:f8:0d:s9",
+                            "name": "My Phone",
+                            "type": "iPhone",
+                            "alarms": [],
+                            "parentName": "Basement pod",
+                            "status": "active",
+                            "connectionType": "2.5G",
+                            "deviceInfo": {
+                                "ssid": "Bellwifi",
+                                "ipAddress": "199.153.0.9",
+                                "macId": "18:b4:30:f8:0d:s9"
+                            },
+                            "signalInfo": {
+                                "signalStrengthValue": "-55dBm",
+                                "signalStrength": "moderate",
+                                "signalStrengthColor": "yellow",
+                                "interference": "10%",
+                                "interferenceColor": "green",
+                                "channelCongestion": "42%",
+                                "channelCongestionColor": "yellow"
+                            },
+                            "downloadSpeed": {
+                                "deviceCapability": "156 mb/s",
+                                "actual": "199 mb/s"
+                            },
+                            "connectedDevices": []
+                        }
+                    ]
+                }
+            ]
+        },
+        "icons": {
+            "issues": "2",
+            "noissues": "3",
+            "offline": "2"
+        },
+        "history": [],
+        "customerId": "5af5e604342a112c014e718c",
+        "locationId": "5af5e604342a112c014e718d"
+    }
+]
